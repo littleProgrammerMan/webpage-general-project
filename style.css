@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+:root {
+    --color-01: #C4C4C4;
+    --color-02: #ffffff;
+    --color-03: #2387C0;
+    --color-04: #0A72AD;
+
+
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+ul {
+    list-style: none;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow: overlay;
+}
+
+header {
+    display: flex; 
+    max-width: 120rem;   
+    margin-inline: auto;
+    justify-content: space-between;
+    padding-block: 4.8rem 3.6rem;
+}
+
+header .logo {
+    display: grid;
+    gap: 1.2rem;
+    color: var(--color-02);
+}
+
+header .logo .logo-general {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+}
+
+header .logo .logo-project {
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    color: var(--color-04);
+}
+
+header nav ul {
+    display: flex;
+    gap: 6rem;
+}
+
+header nav ul li {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--color-01);
+}
+
+main::before {
+    content: "";
+    width: 100%;
+    height: 90.2rem;
+    background-image: linear-gradient(109.92deg, #474747 4.14%, #222222 44.22%);
+    display: block;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;;
+}
+
+.espace {
+    max-width: 120rem;   
+    margin-inline: auto;
+}
+
+.presentation h1 {
+    font-weight: 500;
+    font-size: 6.4rem;
+    line-height: 9.6rem;
+    color: white;
+    margin-bottom: 2.4rem;
+}
+
+.description {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: var(--color-01);
+    width: 50.8rem;
+}
+
+.presentation button {
+    font-weight: 600;
+    line-height: 2.4rem;
+    color: var(--color-02);
+    
+    background-image: linear-gradient(97.65deg, #60BBEE 0.33%, #0A72AD 93.35%);
+
+    border: none;
+
+    padding: 2rem 4rem;
+
+    margin-top: 6.2rem;
+
+    cursor: pointer;
+}
+
+.numbers ul {
+    display: flex;
+    gap: 5.1rem;
+    margin-top: 4.3rem;
+}
+
+.presentation section ul li h4 {
+     font-weight: 700;
+     font-size: 3.6rem;
+     line-height: 5.4rem;
+     color: var(--color-02);
+}
+
+.presentation section ul li h4 span {
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 5.4rem;
+    color: var(--color-03);
+}
+
+.presentation section ul li p {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    
+    color: var(--color-01);
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    background-image: linear-gradient(97.73deg, #399FD8 -6.96%, #0775B4 23.5%, #003756 92.79%);
+    padding: 3.2rem 12rem 3.6rem 3.2rem;
+    width: 74.5rem;
+    position: absolute;
+    right: 0;
+    top: 75.7rem;
+}
+
+.about .logo {
+    display: grid;
+    gap: 1.2rem;
+    color: var(--color-02);
+}
+
+.about .logo .logo-general {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+}
+
+.about .logo .logo-project {
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+}
+
+.numbers-operation div {
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+.numbers-operation h4 {
+    font-weight: 700;
+    font-size: 3.6rem;
+    /* line-height: 5.4rem; */
+
+    display: inline;
+
+    color: var(--color-02);
+}
+
+.numbers-operation p {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: var(--color-02);
+    display: inline;
+}
+
+.numbers-operation span {
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    color: var(--color-02);
+}
+
+.numbers-operation-description p {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: var(--color-02);
+    width: 30rem;
+}
+
+.city {
+    position: absolute;
+    top: 0;
+    right: 0rem;
+    z-index: -1;
+}
+
+.emprises {
+    max-width: 120rem;   
+    margin-inline: auto;
+}
+
+.emprises ul {
+    display: flex;
+}
